@@ -51,13 +51,13 @@ import (
 func main() {
     query := "apples and oranges"
 
-	suggestions, err := Suggest(query)
+    suggestions, err := Suggest(query)
 
-	if err != nil {
-		panic(err)
-	}
+    if err != nil {
+        panic(err)
+    }
 
-	for _, suggestion := range suggestions {
+    for _, suggestion := range suggestions {
         fmt.Println(suggestion)
     }
 }
