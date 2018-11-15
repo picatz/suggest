@@ -1,5 +1,5 @@
 # suggest
-🃏 Simple google search suggestion.
+🃏 Simple google search suggestions.
 
 # Install
 ```bash
