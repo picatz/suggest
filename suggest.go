@@ -10,8 +10,8 @@ import (
 // Suggestions is a slice of strings that is returned by Suggest
 type Suggestions = []string
 
-// Suggest queries google's unofficial suggestion API for Suggestions.
-func Suggest(str string) (Suggestions, error) {
+// Get queries google's unofficial suggestion API for Suggestions.
+func Get(str string) (Suggestions, error) {
 	query := url.QueryEscape(str)
 
 	resp, err := http.Get(BaseURL + query)
