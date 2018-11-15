@@ -11,7 +11,7 @@ Once installed, you will have the `suggest` command-line utility.
 
 > **Example**: You want suggestions for the phrase `install internet explorer`:
 ```bash
-$ suggest install linux
+$ suggest install internet explorer
 ```
 Might output the following:
 ```
