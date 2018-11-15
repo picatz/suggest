@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"strings"
 
-	"github.com/picatz/suggest"
+	suggest "github.com/picatz/suggest/core"
 )
 
 func init() {
